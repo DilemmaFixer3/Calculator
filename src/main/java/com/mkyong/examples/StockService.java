@@ -14,6 +14,7 @@ public class StockService {
         }
     }
 
+
     public int add(int qty) {
 
         isValidQty(qty);
