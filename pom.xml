@@ -38,7 +38,7 @@
                 <version>3.0.0-M1</version>
             </plugin>
 
-            <plugin>
+            <!--<plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
@@ -55,7 +55,7 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-                    <!-- <execution>
+                    &lt;!&ndash; <execution>
                         <id>jacoco-check</id>
                         <goals>
                             <goal>check</goal>
@@ -74,9 +74,9 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </execution> -->
+                    </execution> &ndash;&gt;
                 </executions>
-            </plugin>
+            </plugin>-->
 
         </plugins>
     </build>
